@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="bg">
+        <div class="container">
+          <div class="image">
+            <img class="hangman s0" src="images/floor.png" alt="" />
+            <img class="hangman s1" src="images/1 line.png" alt="" /><img
+              class="hangman s2"
+              src="images/2 line.png"
+              alt=""
+            />
+            <img class="hangman s3" src="images/3 line.png" alt="" />
+            <img class="hangman s4" src="images/head.png" alt="" />
+            <img class="hangman s5" src="images/body.png" alt="" />
+            <img
+              class="hangman s6"
+              class="hangman"
+              src="images/left hand.png"
+              alt=""
+            />
+            <img class="hangman s7" src="images/right hand.png" alt="" />
+            <img class="hangman s8" src="images/left leg.png" alt="" />
+            <img class="hangman s9" src="images/right leg.png" alt="" />
+          </div>
+          <div class="name">hangman</div>
+        </div>
+        <div class="wrapper">
+          <div class="word"></div>
+          <div class="category">film</div>
+          <div class="input">
+            <div class="text">Place letter:</div>
+            <input type="text" /> <button>Check letter</button>
+          </div>
+          <button class="startAgain">Start again</button>
+          <button class="guessed">I'm guessing password</button>
+          <div class="guessing">
+            <span class="enter">Enter password</span>
+            <input type="text" class="password" />
+            <button class="check">Check password</button>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper box">
+        <div class="end"></div>
+        <button class="end">NOWA GRA</button>
+      </div>
+    </section>
+    <script src="hangman.js"></script>
+  </body>
+</html>
